@@ -1,101 +1,117 @@
 .logo {
-    width: 200px;
-    height: 200px;
-    border: 2px solid black;
-    border-radius: 80px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 80px;
 }
 
 .sidebar {
-    position: relative;
-    margin-left: 25px;
-    width: 250px;
+  position: relative;
+  margin-left: 25px;
+  width: 250px;
 }
 
 .sidebar-border {
-    border-right: 2px solid black;
-    height: 100%;
-    position: absolute;
-    top: 5%;
-    left: 110%;
+  border-right: 2px solid black;
+  height: 100%;
+  position: absolute;
+  top: 5%;
+  left: 110%;
 }
 
 .bio {
-    font-family: Montserrat, sans-serif;
-    font-size: 20px;
-    margin-top: 32px;
-    text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  margin-top: 32px;
+  text-align: center;
+  color: #5ac18e;
 }
 
 .tagline {
-    font-family: Montserrat, sans-serif;
-    font-size: 20px;
-    margin-top: 32px;
-    text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  margin-top: 32px;
+  text-align: center;
+  color: #ff7f50;
 }
 
 .social-media {
-    margin-top: 32px;
-    width: 50%;
-    margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .social-media img {
-    width: 50px;
-    height: 50px;
-    float: left;
+  width: 50px;
+  height: 50px;
 }
 
 .social-media a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
-
-
 .name {
-    font-family: Montserrat, sans-serif;
-    font-size: 32px;
-    margin-bottom: 32px;
-    text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 32px;
+  margin-bottom: 32px;
+  text-align: center;
 }
 
 .container {
-    display: flex;
+  display: flex;
+}
+
+.repo-mega-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .repo-container {
-    flex-grow: 1;
-    margin-left: 20%;
-    width:80%;
+  flex-grow: 1;
+  margin-left: 100px;
+}
+
+#repos {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-start;
+  align-items: flex-start;
 }
 
 .repo {
-    border: 2px solid black;
-    margin-bottom: 10px;
-    padding: 15px;
-    width: 300px;
-    border-radius: 4px;
-    text-align: center;
-    margin-right: 10px;
-    height: 100px;
-    float:left;
+  flex-shrink: 0;
+  border: 2px solid black;
+  margin-bottom: 10px;
+  padding: 15px;
+  width: 300px;
+  border-radius: 4px;
+  text-align: center;
+  margin-right: 10px;
+  height: 100px;
+  float: left;
 }
 
 .repo-text {
-    font-family: Montserrat, sans-serif;
-    text-align: center;
-    margin-bottom: 5%;
+  font-family: Montserrat, sans-serif;
+  margin-left: 100px;
+  margin-bottom: 40px;
 }
 
 .repo-name {
-    padding-top: 80px;
-    text-align: center;
-    text-decoration: none;
-    color: #0366d6;
-    font-weight: bold;
-    font-family: Montserrat, sans-serif;
+  padding-top: 80px;
+  text-align: center;
+  text-decoration: none;
+  color: #7abbff;
+  font-weight: bold;
+  font-family: Montserrat, sans-serif;
 }
 
 .repo-desc {
-    font-family: Montserrat, sans-serif;
-    text-align: center;
-    font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  font-size: 14px;
 }
